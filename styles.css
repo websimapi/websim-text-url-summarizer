@@ -137,6 +137,30 @@ h1 {
   color: white;
 }
 
+.fetch-error {
+  background-color: #fff3cd;
+  border-left: 4px solid #ffc107;
+  color: #856404;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.input-hint {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.source-note {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .container {
