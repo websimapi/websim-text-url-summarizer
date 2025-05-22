@@ -301,7 +301,7 @@ async function generateSummary(text) {
 function extractBulletPoints(text) {
   // Try to find anything that looks like a bullet point
   const lines = text.split('\n').filter(line => line.trim());
-  const bulletPointsRegex = /^\s*[-•*]\s+(.+)$$
+  const bulletPointsRegex = /^\s*[-•*]\s+(.+)$/
 
   const bulletPoints = [];
 
